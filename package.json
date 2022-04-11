@@ -1,0 +1,26 @@
+{
+  "name": "freelancerbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "link-module-alias & node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "chalk": "^5.0.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "glob": "^7.2.0",
+    "link-module-alias": "^1.2.0",
+    "mongoose": "^6.2.10",
+    "promisify": "^0.0.3",
+    "reflect-metadata": "^0.1.13"
+  },
+  "_moduleAliases": {
+    "$Validation": "src/Validation/"
+  }
+}
