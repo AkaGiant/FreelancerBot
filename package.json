@@ -21,6 +21,7 @@
     "reflect-metadata": "^0.1.13"
   },
   "_moduleAliases": {
-    "$Validation": "src/Validation/"
+    "$Validation": "src/Validation/",
+    "$Schemas": "src/Schemas/"
   }
 }
