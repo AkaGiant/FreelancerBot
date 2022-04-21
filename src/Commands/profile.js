@@ -15,7 +15,7 @@ module.exports = {
                 if (err) throw err;
                 if (data) {
                     const embed = new MessageEmbed()
-                    embed.setColor('GREEN')
+                    embed.setColor('BLURPLE')
                     embed.setTitle(`${interaction.user.tag}`)
                     embed.addField("id", `${data.freelancerId}`)
                     embed.addField("guildId", `${data.guildId}`)
